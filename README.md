@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# INSTASHOP
 
-## Getting Started
+## Table of Contents
 
-First, run the development server:
+1. [Setup Instructions](#setup-instructions)
+2. [Assumptions](#assumptions)
+3. [Running the Application Locally](#running-the-application-locally)
+4. [Folder Structure](#folder-structure)
+5. [Technologies Used](#technologies-used)
+
+## Setup Instructions
+
+1. **Clone the repository**
+
+   First, clone the repository from GitHub:
+
+   ```bash
+   git clone https://github.com/kennethoyahebholo/insta_shop.git
+   ```
+
+2. **Change Directory**
+
+   Navigate to the project directory using the following command:
+
+   ```bash
+   cd insta_shop
+   ```
+
+3. **Install Dependencies**
+
+   The project uses npm to manage dependencies. Run one of the following commands to install the necessary dependencies:
+
+   ```bash
+   npm install
+   ```
+
+## Assumptions
+
+Before running the application, please ensure the following:
+
+- **Node.js** version 18 or later is installed on your machine.
+- The application is designed to run in a local development environment using **Node.js** and **Next Js Typescript**.
+
+## Running the Application Locally
+
+1. Start the development server
+
+After installing dependencies, you can start the development server by running:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Build the project for production
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Folder Structure
 
-## Learn More
+Here is an overview of the folder structure:
 
-To learn more about Next.js, take a look at the following resources:
+### Explanation:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **/src**: Contains all the source code for the application.
+  - **/components**: React components used across the app.
+  - **/utils**: Helper functions and utilities.
+- **/public**: Contains static assets like `index.html`, images, etc.
+- **/package.json**: Project dependencies, scripts, and metadata.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Technologies Used
 
-## Deploy on Vercel
+The following technologies were used to build and maintain this project:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next Js**: A JavaScript library for building user interfaces.
+- **TypeScript**: A statically typed superset of JavaScript that enhances development with type safety.
+- **Tailwind Css**: A modular CSS solution for scoped and reusable styles within React components.
+- **Context Api**: A global state management solution.
+- **Prettier**: An opinionated code formatter to ensure consistent code style across the project.
+- **ESLint**: A static analysis tool to identify and fix problematic patterns in JavaScript/TypeScript code.
+- **VSCode**: A powerful code editor used for development, with features like IntelliSense, debugging, and Git integration.
+- **Yup**: A JavaScript schema validation library used for form validation and ensuring data integrity.
+- **Formik**: A library for building forms in React with minimal effort, including validation and state management.
+- **React-Toastify**: A library for displaying notifications (toast messages) in a React app with customizable features.
