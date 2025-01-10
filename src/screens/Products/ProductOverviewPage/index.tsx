@@ -101,7 +101,7 @@ const ProductOverviewPage = () => {
         maxWidth="max-w-[360px]"
       >
         <div
-          className="animate-fade-in duration-200 ease-in relative mb-4 h-[360px] w-full bg-yellow-400"
+          className="animate-fade-in duration-200 ease-in relative mb-4 h-[360px] w-full bg-gray-400"
           style={{
             backgroundImage: `url(${currentImage})`,
             backgroundSize: "cover",

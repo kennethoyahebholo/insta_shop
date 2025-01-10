@@ -12,8 +12,8 @@ import CheckIcon from "../../../public/assets/svgs/CheckIcon";
 const WelcomePage = () => {
   const router = useRouter();
   return (
-    <div className="pt-[48px] pb-[57px] px-[32px] flex flex-col justify-between h-[calc(100dvh-105px)]">
-      <div>
+    <div className="h-[100dvh] flex flex-col justify-between w-full px-[12px] xs:px-[32px]">
+      <div className="pt-[48px]">
         <div className="flex item-center justify-center mb-[25px]">
           <WelcomeImage />
         </div>
@@ -34,7 +34,7 @@ const WelcomePage = () => {
           ))}
         </div>
       </div>
-      <div className="flex item-center justify-center">
+      <div className="flex item-center justify-center pb-[57px]">
         <StyledButton
           title="Get Started"
           className="max-w-[296px] xs:max-w-[396px]"
